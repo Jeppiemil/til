@@ -1,0 +1,4 @@
+1. 앞으로 git 프로젝트로 만들고 싶은 것
+- TIL 업로드, 프로젝트 버전 관리
+2. 1주차 주요 개념 키워드 적어보기
+Initialize project, push, pull, add (staging), main/origin setting
