@@ -17,7 +17,7 @@ for (int i=0; i<s.length(); i++){
     }
 }
 ```
-otherwise
+*otherwise*
 ```java
 for(char each_char : s.toCharArray()){ // .toCharArray() is optional but error might occur without
     if (Character.isDigit(each_char)){
