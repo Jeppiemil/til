@@ -15,6 +15,15 @@ for (int i=0; i<s.length(); i++){
     if (Character.isDigit(each_char)){
         ...
     }
+}
+```
+otherwise
+```java
+for(char each_char : s){
+    if (Character.isDigit(each_char)){
+    ...
+    }
+}
 ```
 
 ## Change datatype
