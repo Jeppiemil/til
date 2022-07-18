@@ -1,11 +1,11 @@
-##String
+## String
 
 It was not possible to string += char, so found another method by format in String method
 ```java
 String threeString = String.format("%c%c%c",s.charAt(i-2),s.charAt(i-1),s.charAt(i)); // create string adding chars
 ```
 
-##Character
+## Character
 
 Check if each char of the string is a digit
 ```java
@@ -17,7 +17,7 @@ for (int i=0; i<s.length(); i++){
     }
 ```
 
-##Change datatype
+## Change datatype
 
 String to Integer
 ```java
