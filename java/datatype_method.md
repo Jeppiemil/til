@@ -19,11 +19,27 @@ for (int i=0; i<s.length(); i++){
 ```
 otherwise
 ```java
-for(char each_char : s){
+for(char each_char : s.toCharArray()){ // .toCharArray() is optional but error might occur without
     if (Character.isDigit(each_char)){
     ...
     }
 }
+```
+
+Slicing the string
+```java
+String s = "TargetString01"
+System.out.println(s.substring(1)) // "argetString01"
+System.out.println(s.substring(1,3)) // "ar" as inclusive start, exclusive end
+```
+
+## Array
+
+Create another array according to the original array
+```java
+int [] original_array = {1,2,3,4,5};
+int [] array_copyof = Arrays.copyOf(original, 3); // {1, 2, 3}
+int [] array_copyoofrange = Arrays.copyOfRange(original, 3, 5}; // {4, 5} as again, inclusive start, exclusive end
 ```
 
 ## Change datatype
