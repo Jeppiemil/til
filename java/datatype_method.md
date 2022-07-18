@@ -42,6 +42,43 @@ int [] array_copyof = Arrays.copyOf(original, 3); // {1, 2, 3}
 int [] array_copyoofrange = Arrays.copyOfRange(original, 3, 5}; // {4, 5} as again, inclusive start, exclusive end
 ```
 
+## ArrayList
+
+Create a blank ArrayList - no need to define the length, but if you want, put the initial length in parenthesis
+```java
+ArrayList<Integer> divisor = new ArrayList<Integer>(); // (10) will make 10 length arrayList
+divisor.add("Hello");   // divisor == ["Hello"]
+divisor.add("Hello");   // divisor == ["Hello", "Hello"]
+
+divisor.set(1, "World"); // divisor == ["Hello", "World"]
+
+divisor.remove("Hello"); // divisor == ["World"]
+divisor.remove(0) // divisor == []
+
+divisor.clear(); // clear all the elements in the ArrayList
+
+int num_divisor = divisor.size(); // ArrayLists uses size() not length
+```
+
+## HashSet *NEW*
+
+similar to set (e.g (3,4,5)) in python not accepting duplicates
+```java
+// // Convert array to HashSet in Java
+// import java.io.*;
+// import java.util.Iterator;
+// Importing Set libraries
+import java.util.Set;
+import java.util.HashSet;
+
+Set<Integer> unique = new HashSet<>(); // create a new HashSet
+for (int element : nums){               // for each element in nums array
+    unique.add(element);                // add it to the new HashSet - then only unique values remain in HashSet
+    }
+int unique_ponkemon = unique.size();    // HashSet uses size() not length
+```
+
+
 ## Change datatype
 
 String to Integer
