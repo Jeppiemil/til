@@ -59,8 +59,10 @@ divisor.clear(); // clear all the elements in the ArrayList
 
 int num_divisor = divisor.size(); // ArrayLists uses size() not length
 ```
+list also uses list.get() to retreive the list element 
 
-## HashSet *NEW*
+## HashSet 
+### *NEW*
 
 similar to set (e.g (3,4,5)) in python not accepting duplicates
 ```java
